@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/soundingdoubts.github.io/posts/</loc>
+    <loc>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</loc>
     <lastmod>2025-07-31T00:27:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/soundingdoubts.github.io/</loc>
+    <loc>https://berlogabob.github.io/soundingdoubts.github.io/posts/</loc>
     <lastmod>2025-07-31T00:27:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/soundingdoubts.github.io/categories/</loc>
+    <loc>https://berlogabob.github.io/soundingdoubts.github.io/</loc>
+    <lastmod>2025-07-31T00:27:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/soundingdoubts.github.io/tags/</loc>
+    <loc>https://berlogabob.github.io/soundingdoubts.github.io/categories/</loc>
+  </url><url>
+    <loc>https://berlogabob.github.io/soundingdoubts.github.io/tags/</loc>
   </url>
 </urlset>
