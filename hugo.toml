@@ -1,0 +1,4 @@
+baseURL = 'https://berlogabob.github.io/soundingdoubts.github.io/'
+languageCode = 'enDus'
+title = 'Sounding doubts'
+theme = "hugo-PaperMod"
