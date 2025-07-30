@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sounding doubts</title>
-    <link>https://berlogabob.github.io/soundingdoubts.github.io/</link>
+    <link>http://localhost:1313/soundingdoubts.github.io/</link>
     <description>Recent content on Sounding doubts</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>enDus</language>
-    <lastBuildDate>Thu, 31 Jul 2025 00:27:39 +0100</lastBuildDate>
-    <atom:link href="https://berlogabob.github.io/soundingdoubts.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 31 Jul 2025 00:27:39 +0100</pubDate>
-      <guid>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hey this is my first post&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/soundingdoubts.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
