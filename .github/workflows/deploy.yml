@@ -29,4 +29,8 @@ jobs:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./public
           external_repository: yourusername/yourusername.github.io
+<<<<<<< HEAD
           publish_branch: main
+=======
+          publish_branch: main
+>>>>>>> d7523c6 (deploy action yaml)
