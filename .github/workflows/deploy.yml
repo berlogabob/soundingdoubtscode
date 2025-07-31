@@ -1,32 +1,39 @@
-name: Deploy to GitHub Pages
+name: Deploy Public Folder to Another Repo
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'public/**' # Срабатывает при изменениях в папке public
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          submodules: true
+      # Шаг 1: Клонируем исходный репозиторий (berlogabob/soundingdoubtscode)
+      - name: Checkout source repo
+        uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      # Шаг 2: Клонируем целевой репозиторий (berlogabob/soundingdoubts.github.io, ветка main)
+      - name: Checkout destination repo
+        uses: actions/checkout@v4
         with:
-          hugo-version: 'latest'
-          extended: true
+          repository: berlogabob/soundingdoubts.github.io # Целевой репозиторий
+          path: repo-destination
+          token: ${{ secrets.DEST_REPO_TOKEN }} # Токен для доступа
 
-      - name: Build
-        run: hugo --minify
+      # Шаг 3: Копируем содержимое папки public в целевой репозиторий
+      - name: Copy public folder
+        run: |
+          rm -rf repo-destination/* # Очищаем целевой репозиторий (осторожно!)
+          cp -r public/* repo-destination/
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.SDPAGETOKEN }}
-          publish_dir: ./public
-          external_repository: yourusername/yourusername.github.io
-          publish_branch: main
+      # Шаг 4: Коммитим и пушим изменения в целевой репозиторий
+      - name: Commit and push to destination repo
+        run: |
+          cd repo-destination
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Update from soundingdoubtscode public folder" || echo "No changes to commit"
+          git push
