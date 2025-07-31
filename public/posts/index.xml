@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sounding doubts</title>
-    <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/</link>
+    <link>http://localhost:1313/soundingdoubts.github.io/posts/</link>
     <description>Recent content in Posts on Sounding doubts</description>
     <generator>Hugo</generator>
     <language>enDus</language>
-    <lastBuildDate>Thu, 31 Jul 2025 23:11:29 +0100</lastBuildDate>
-    <atom:link href="https://berlogabob.github.io/soundingdoubts.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jul 2025 23:21:48 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/soundingdoubts.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 08 01</title>
+      <link>http://localhost:1313/soundingdoubts.github.io/posts/2025-08-01/</link>
+      <pubDate>Thu, 31 Jul 2025 23:21:48 +0100</pubDate>
+      <guid>http://localhost:1313/soundingdoubts.github.io/posts/2025-08-01/</guid>
+      <description>&lt;p&gt;day 3 of this story.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025 07 31</title>
-      <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/2025-07-31/</link>
+      <link>http://localhost:1313/soundingdoubts.github.io/posts/2025-07-31/</link>
       <pubDate>Thu, 31 Jul 2025 23:11:29 +0100</pubDate>
-      <guid>https://berlogabob.github.io/soundingdoubts.github.io/posts/2025-07-31/</guid>
+      <guid>http://localhost:1313/soundingdoubts.github.io/posts/2025-07-31/</guid>
       <description>&lt;p&gt;Hey. lets check if github action are working&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</link>
+      <link>http://localhost:1313/soundingdoubts.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 31 Jul 2025 00:27:39 +0100</pubDate>
-      <guid>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/soundingdoubts.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hey this is my first post&lt;/p&gt;&#xA;&lt;p&gt;and second day.&lt;/p&gt;</description>
     </item>
   </channel>
