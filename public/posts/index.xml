@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Sounding doubts</description>
     <generator>Hugo</generator>
     <language>enDus</language>
-    <lastBuildDate>Thu, 31 Jul 2025 00:27:39 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 23:11:29 +0100</lastBuildDate>
     <atom:link href="https://berlogabob.github.io/soundingdoubts.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 07 31</title>
+      <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/2025-07-31/</link>
+      <pubDate>Thu, 31 Jul 2025 23:11:29 +0100</pubDate>
+      <guid>https://berlogabob.github.io/soundingdoubts.github.io/posts/2025-07-31/</guid>
+      <description>&lt;p&gt;Hey. lets check if github action are working&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 31 Jul 2025 00:27:39 +0100</pubDate>
       <guid>https://berlogabob.github.io/soundingdoubts.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hey this is my first post&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hey this is my first post&lt;/p&gt;&#xA;&lt;p&gt;and second day.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
