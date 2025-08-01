@@ -1,0 +1,31 @@
+baseURL: https://berlogabob.github.io/soundingdoubts.github.io/
+languageCode: enDus
+title: Sounding doubts
+theme: hugo-PaperMod
+menu:
+  main:
+    - identifier: categories
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: Contacts
+      name: Contacts
+      url: /Contacts/
+      weight: 10
+    - identifier: 3D Innovation Studio
+      name: 3D Innovation Studio
+      url: /3D Innovation Studio/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+    - identifier: Privacy Policy
+      name: Privacy Policy
+      url: /Privacy Policy/
+      weight: 10
+    - identifier: example
+      name: soundingdoubts.pt
+      url: https://soundingdoubts.pt/
+      weight: 30
